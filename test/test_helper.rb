@@ -4,6 +4,7 @@ require 'rails/test_help'
 require 'minitest/pride'
 
 class ActiveSupport::TestCase
+  include ApplicationHelper
   # Setup all fixtures in test/fixtures/*.yml for all tests in alphabetical order.
   fixtures :all
 
